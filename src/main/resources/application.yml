@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: config-service
+  profiles:
+    active: native  # git repository로 local repository를 사용함
   cloud:
     config:
       server:
