@@ -10,3 +10,4 @@
 /target/classes/com/example/configservice/ConfigServiceApplication.class
 /target/classes/application.yml
 /target/test-classes/com/example/configservice/ConfigServiceApplicationTests.class
+/.idea/sonarlint/issuestore/

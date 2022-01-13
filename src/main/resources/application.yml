@@ -4,13 +4,11 @@ server:
 spring:
   application:
     name: config-service
-  profiles:
-    active: native  # git repository로 local repository를 사용함
   cloud:
     config:
       server:
         git:
-          uri: file:///Users/username/Dev/study/projects/spring-cloud/git-local-repo  # local에서 실행 시 directory 맞는지 확인
+          uri: file:///Users/a1101484/Dev/study/projects/springcloud/git-local-repo  # local에서 실행 시 directory 맞는지 확인
           # 설정 파일의 위치 (local)
           # local에서 `/{설정파일명}/{profile}`로 호출하여 관련 정보 확인 가능
             # ex) http://localhost:8888/{설정파일명}/{profile}
